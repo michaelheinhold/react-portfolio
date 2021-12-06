@@ -1,0 +1,33 @@
+.navbar {
+  padding: 40px 40px 0;
+  width: 100%;
+}
+
+a, .nav-link {
+  text-decoration: none;
+}
+
+a:hover, nav-link:hover {
+  color: #fff9 !important;
+  text-decoration: line-through;
+}
+
+.name {
+  color: #fff;
+  font-size: 2.4rem;
+  letter-spacing: 0.1em;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  color: rgb(230, 164, 42) !important;
+}
