@@ -1,5 +1,9 @@
 import React from "react";
 
-function Portfolio() {}
+function Portfolio() {
+  return(
+    <div>This is the Portfolio page</div>
+  )
+}
 
 export default Portfolio;

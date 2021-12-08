@@ -14,20 +14,46 @@ a:hover, nav-link:hover {
 
 .name {
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 2.4em;
   letter-spacing: 0.1em;
 }
 
 .nav-link {
   color: #fff;
-  font-size: 1.4rem;
-}
-
-.container-fluid {
-  display: flex;
-  justify-content: space-between;
+  font-size: 1.4em;
 }
 
 .active {
   color: rgb(230, 164, 42) !important;
+}
+
+.txt-black{
+  color: #111;
+}
+
+.txt-black:hover, .active:hover {
+  color: rgb(56, 54, 54) !important; 
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .hiddenUntilCollapse {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .collapsed {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .navbar {
+    padding: 20px 20px 0;
+  }
+  
+  .name {
+    font-size: 1.4rem;
+  }
 }

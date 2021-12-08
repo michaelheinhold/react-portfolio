@@ -14,22 +14,26 @@ function App() {
   const renderPage = () => {
     switch(currentPage) {
       case 'About Me':
+        document.title = 'About Me | MICHAEL HEINHOLD'
         return ( <About /> );
       case 'Portfolio':
+        document.title = 'Portfolio | MICHAEL HEINHOLD'
         return ( <Portfolio /> );
       case 'Contact Me':
+        document.title = 'Contact Me | MICHAEL HEINHOLD'
         return ( <Contact /> );
       case 'Resume':
+        document.title = 'Resume | MICHAEL HEINHOLD'
         return ( <Resume /> );
       default:
-        return ( <Intro /> );
+        return ( <Intro currentPage={currentPage} handlePageChange={handlePageChange} /> );
     }
   };
 
   return (
     <div className="App">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* { renderPage() } */}
+      { renderPage() }
       <Footer />
     </div>
   );
