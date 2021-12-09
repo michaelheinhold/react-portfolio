@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Nav(props) {
   const tabs = ['About Me', 'Portfolio', 'Contact Me', 'Resume'];
@@ -10,7 +10,10 @@ function Nav(props) {
         <li className='nav-item' key={tab}>
           <a
             href={'#' + tab.toLowerCase()}
-            onClick={() => props.handlePageChange(tab)}
+            onClick={() => {
+              props.handlePageChange(tab);
+              window.scrollTo(0,0);
+            }}
             className={
               props.currentPage === tab || props.navbar ? 'nav-link active' : 'nav-link'
             }

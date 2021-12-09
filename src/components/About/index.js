@@ -8,9 +8,9 @@ function About() {
         <div className='col-8'>
           <div className='title'>
             <h2 className='title_text'>About Me</h2>
-            <p className='title_content'>I love Stuff, Stuff, 
+            <p className='title_content'>I love Improving, learning, 
               <br />
-              and Stuff.
+              and Coding.
             </p>
           </div>
         </div>
@@ -18,14 +18,9 @@ function About() {
           test
         </div>
       </section>
-      <section className='section section-2 s-white'>Page 2
-        <div className='row'>
-          <div className='col-6'>
-            test
-          </div>
-          <div className='col-6'>
-            test
-          </div>
+      <section className='section section-2 s-white'>
+        <div className='col-8'>
+          Page 2
         </div>
       </section>
     </div>

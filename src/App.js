@@ -10,6 +10,20 @@ import Resume from './components/Resume';
 
 function App() {
   const [currentPage, handlePageChange] = useState('Intro');
+  
+  const [navbar, setNavbar] = useState(false);
+
+  const changeNavText = () => {
+    if (currentPage === 'Intro') {
+      setNavbar(false);
+    } else if ( window.scrollY >=  window.innerHeight){
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeNavText);
 
   const renderPage = () => {
     switch(currentPage) {
@@ -32,7 +46,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} navbar={navbar} setNavbar={setNavbar} />
       { renderPage() }
       <Footer />
     </div>

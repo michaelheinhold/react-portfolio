@@ -19,3 +19,9 @@
 .section-4 {
   top: 300%;
 }
+
+.sec-content { 
+  top: 30%;
+  position: relative;
+  margin-left: 11%;
+}
