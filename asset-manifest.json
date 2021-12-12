@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a3e0718a.chunk.css",
+    "main.js": "/portfolio/static/js/main.306b26d1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.306b26d1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.75ae9c74.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.75ae9c74.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/portfolio/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.62e0680e.chunk.js": "/portfolio/static/js/2.62e0680e.chunk.js",
+    "static/js/2.62e0680e.chunk.js.map": "/portfolio/static/js/2.62e0680e.chunk.js.map",
+    "static/js/3.fbb3be78.chunk.js": "/portfolio/static/js/3.fbb3be78.chunk.js",
+    "static/js/3.fbb3be78.chunk.js.map": "/portfolio/static/js/3.fbb3be78.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/portfolio/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.a3e0718a.chunk.css.map": "/portfolio/static/css/main.a3e0718a.chunk.css.map",
+    "static/js/2.62e0680e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.62e0680e.chunk.js.LICENSE.txt",
+    "static/media/Michael Resume.63bf75ff.pdf": "/portfolio/static/media/Michael Resume.63bf75ff.pdf",
+    "static/media/Screenshot (19).77bfcd4b.png": "/portfolio/static/media/Screenshot (19).77bfcd4b.png",
+    "static/media/lantern-festival.90ba46e8.jpg": "/portfolio/static/media/lantern-festival.90ba46e8.jpg",
+    "static/media/me.813ffaec.jpg": "/portfolio/static/media/me.813ffaec.jpg",
+    "static/media/resume-img.9d020bc0.png": "/portfolio/static/media/resume-img.9d020bc0.png",
+    "static/media/vatican-ramp.a9016a4a.jpg": "/portfolio/static/media/vatican-ramp.a9016a4a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75ae9c74.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.62e0680e.chunk.js",
+    "static/css/main.a3e0718a.chunk.css",
+    "static/js/main.306b26d1.chunk.js"
+  ]
+}
