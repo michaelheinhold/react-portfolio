@@ -2,3 +2,17 @@
   width: 100%;
   color: #fff
 }
+
+.form-area {
+  position: relative;
+  top: 35%;
+}
+
+a.contact-text {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+Button {
+  background-color: #ff4d5a !important;
+}

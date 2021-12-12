@@ -1,6 +1,6 @@
 .section {
   color: #fff;
-  height: 100vh;
+  height: 110vh;
   width: 100%;
 }
 
@@ -21,7 +21,65 @@
 }
 
 .sec-content { 
-  top: 30%;
+  top: 10%;
   position: relative;
   margin-left: 11%;
+  z-index: 1000;
+}
+
+.page-btn {
+  color: #fff;
+  background-color: #ff4d5a;
+  border-radius: 50px;
+  line-height: 1;
+  padding: 18px 32px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+img {
+  box-shadow: -10px 10px 10px rgb(4, 20, 39);
+}
+
+.image-whatido, .image-me, .image-contact{
+  width: 100%;
+  margin-left: 100%;
+  z-index: 900;
+  margin-top: -50%;
+}
+
+.whatido-img {
+  filter: grayscale(60%);
+  margin-top: -20%;
+}
+
+.me-img {
+  width: 630px;
+  filter: grayscale(90%);
+  height: 530px;
+}
+
+.contact-img {
+  width: 630px;
+  height: 550px;
+  filter: grayscale(100%);
+}
+
+.start {
+  animation: imageTransform 2s;
+}
+
+@keyframes imageTransform {
+  from {
+    transform: translateX(10%);
+    transform: translateY(10%);
+    transform: scale(.9);
+  }
+  to {
+    transform: translateX(0%);
+    transform: translateY(0%);
+    transform: scale(1);
+  }
 }

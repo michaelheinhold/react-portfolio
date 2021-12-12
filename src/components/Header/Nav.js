@@ -15,7 +15,7 @@ function Nav(props) {
               window.scrollTo(0,0);
             }}
             className={
-              props.currentPage === tab || props.navbar ? 'nav-link active' : 'nav-link'
+              props.currentPage === tab ? 'nav-link active' : `nav-link ${props.navbar && 'txt-black'}`
             }
           >
             {tab} |

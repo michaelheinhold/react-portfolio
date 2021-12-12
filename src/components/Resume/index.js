@@ -1,4 +1,7 @@
 import React from "react";
+import { Button } from 'reactstrap';
+import resumeImg from '../../assets/resume-img.png';
+import resume from '../../assets/Michael Resume.pdf';
 
 function Resume() {
   return(
@@ -12,10 +15,11 @@ function Resume() {
               <br />
               my Resume.
             </p>
+            <a className='page-btn' href={resume} download='Michael Resume.pdf'><span></span>Download</a>
           </div>
         </div>
         <div className='col-6'>
-          test
+          <img src={resumeImg} className='resume start'></img>
         </div>
       </section>
     </div>

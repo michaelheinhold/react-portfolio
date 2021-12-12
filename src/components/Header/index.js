@@ -14,7 +14,7 @@ function Header(props) {
       <div className="container-fluid">
         <div>
           <a 
-          className={props.navbar ? 'navbar-brand name txt-black': 'navbar-brand name'} 
+          className={`navbar-brand name ${props.navbar && 'txt-black'}`} 
           href="/"
           onClick={() => props.handlePageChange('Intro')}
           >

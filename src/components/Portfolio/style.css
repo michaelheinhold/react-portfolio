@@ -1,0 +1,23 @@
+.project-board {
+  position: relative;
+  top: 30%;
+  width: 100%;
+}
+
+.project{
+  background-color: rgb(6,30,59);
+}
+
+.resume {
+  position: relative;
+  top:10%;
+  filter:grayscale(50%)
+}
+
+.sec-content-title { 
+  top: 15%;
+  position: relative;
+  margin-left: 11%;
+  z-index: 1000;
+}
+

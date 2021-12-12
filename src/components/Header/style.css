@@ -3,11 +3,11 @@
   width: 100%;
 }
 
-a, .nav-link {
+a, .nav-link, a.contact-text {
   text-decoration: none;
 }
 
-a:hover, nav-link:hover {
+a:hover, nav-link:hover, a.contact-text:hover {
   color: #fff9 !important;
   text-decoration: line-through;
 }
@@ -32,7 +32,7 @@ a:hover, nav-link:hover {
 }
 
 .txt-black:hover, .active:hover {
-  color: rgb(56, 54, 54) !important; 
+  color: rgb(116, 114, 114) !important; 
 }
 
 

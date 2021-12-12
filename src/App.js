@@ -29,10 +29,20 @@ function App() {
     switch(currentPage) {
       case 'About Me':
         document.title = 'About Me | MICHAEL HEINHOLD'
-        return ( <About /> );
+        return ( 
+          <div>
+            <About />
+            <Footer />
+          </div>
+        );
       case 'Portfolio':
         document.title = 'Portfolio | MICHAEL HEINHOLD'
-        return ( <Portfolio /> );
+        return ( 
+          <div>
+            <Portfolio />
+            <Footer />
+          </div>
+        );
       case 'Contact Me':
         document.title = 'Contact Me | MICHAEL HEINHOLD'
         return ( <Contact /> );
@@ -40,7 +50,12 @@ function App() {
         document.title = 'Resume | MICHAEL HEINHOLD'
         return ( <Resume /> );
       default:
-        return ( <Intro currentPage={currentPage} handlePageChange={handlePageChange} /> );
+        return ( 
+          <div>
+            <Intro currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Footer />
+          </div>
+        );
     }
   };
 
@@ -48,7 +63,7 @@ function App() {
     <div className="App">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} navbar={navbar} setNavbar={setNavbar} />
       { renderPage() }
-      <Footer />
+
     </div>
   );
 }
