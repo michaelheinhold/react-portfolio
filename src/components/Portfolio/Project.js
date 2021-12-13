@@ -8,7 +8,7 @@ import {
 
 function Project(props) {
   return (
-    <div className='col-6 project'>
+    <div className='col-4 project'>
       <h2>{props.name}</h2>
       <a href={props.link} target='_blank'>Deployed app</a>
       <br />

@@ -16,3 +16,8 @@ a.contact-text {
 Button {
   background-color: #ff4d5a !important;
 }
+
+.error-message {
+
+  color: #ff4d5a;
+}

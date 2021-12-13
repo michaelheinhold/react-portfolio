@@ -2,11 +2,12 @@ import React from "react";
 import { Button } from 'reactstrap';
 import resumeImg from '../../assets/resume-img.png';
 import resume from '../../assets/Michael Resume.pdf';
+import './style.css'
 
 function Resume() {
   return(
     <div>
-      <section className='alt-section row'>
+      <section className='alt-section section row'>
         <div className='col-6'>
           <div className='title'>
             <h2 className='title_text'>Resume</h2>
@@ -21,6 +22,9 @@ function Resume() {
         <div className='col-6'>
           <img src={resumeImg} className='resume start'></img>
         </div>
+      </section>
+      <section className='section section-2 s-white'>
+
       </section>
     </div>
   )

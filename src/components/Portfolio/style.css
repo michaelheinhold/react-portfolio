@@ -5,13 +5,8 @@
 }
 
 .project{
-  background-color: rgb(6,30,59);
-}
-
-.resume {
-  position: relative;
-  top:10%;
-  filter:grayscale(50%)
+  border: rgb(6,30,59);
+  padding: 20px 50px;
 }
 
 .sec-content-title { 
