@@ -15,7 +15,7 @@ function Header(props) {
         <div>
           <a 
           className={`navbar-brand name ${props.navbar && 'txt-black'}`} 
-          href="/"
+          href="/react-portfolio"
           onClick={() => props.handlePageChange('Intro')}
           >
             Michael Heinhold

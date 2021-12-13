@@ -1,0 +1,7 @@
+
+.resume {
+  position: relative;
+  height: 500px;
+  top:10%;
+  filter:grayscale(50%)
+}
