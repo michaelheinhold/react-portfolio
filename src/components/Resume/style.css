@@ -5,3 +5,14 @@
   top:10%;
   filter:grayscale(50%)
 }
+
+.lantern-wrapper {
+  margin-top: 10%;
+  margin-left: 23%;
+}
+
+.lantern-img {
+  height: 350px;
+  width: 800px;
+  filter: grayscale(30%);
+}

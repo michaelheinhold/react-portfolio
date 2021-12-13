@@ -2,38 +2,50 @@ import React from "react";
 import Project from "./Project";
 import './style.css';
 import codingImage from '../../assets/Screenshot (19).png';
+import budget from '../../assets/budget.png';
+import flix from '../../assets/flix-fix.png';
+import gitnshape from '../../assets/gitnshape.png';
+import note from '../../assets/note.png';
+import techblog from '../../assets/techblog.png';
+import weather from '../../assets/weather.png';
 
 function Portfolio() {
   const projects = [
     {
       name: 'Flix Fix',
       link: 'https://pure-falls-88054.herokuapp.com/',
-      github: 'https://github.com/michaelheinhold/group-project-2'
+      github: 'https://github.com/michaelheinhold/group-project-2',
+      image: 'flix-fix'
     },
     {
       name: 'Note Taker',
       link: 'https://heinholdnote-taker.herokuapp.com/',
-      github: 'https://github.com/michaelheinhold/note-taker'
+      github: 'https://github.com/michaelheinhold/note-taker',
+      image: 'note'
     },
     {
       name: 'Tech Blog',
       link: 'https://warm-savannah-79390.herokuapp.com/',
-      github: 'https://github.com/michaelheinhold/tech-blog'
+      github: 'https://github.com/michaelheinhold/tech-blog',
+      image: 'techblog'
     },
     {
       name: 'Git-N-Shape',
       link: 'https://austinxewell.github.io/git-n-shape/',
-      github: 'https://github.com/austinxewell/git-n-shape'
+      github: 'https://github.com/austinxewell/git-n-shape',
+      image: 'gitnshape'
     },
     {
       name: 'Budget Tracker',
       link: 'https://pacific-earth-05931.herokuapp.com/',
-      github: 'https://github.com/michaelheinhold/budget-tracker'
+      github: 'https://github.com/michaelheinhold/budget-tracker',
+      image: 'budget'
     },
     {
       name: 'Weather Dashboard',
       link: 'https://michaelheinhold.github.io/weather-dashboard/',
-      github: 'https://github.com/michaelheinhold/weather-dashboard'
+      github: 'https://github.com/michaelheinhold/weather-dashboard',
+      image: 'weather'
     }
   ]
 
@@ -58,7 +70,7 @@ function Portfolio() {
         <div className='project-board row'>
           {projects.map(project => {
             return (
-              <Project name={project.name} link={project.link} github={project.github} />
+              <Project name={project.name} link={project.link} github={project.github} image={project.image} />
             )
           })}
         </div>

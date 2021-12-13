@@ -1,8 +1,8 @@
 import React from "react";
-import { Button } from 'reactstrap';
 import resumeImg from '../../assets/resume-img.png';
 import resume from '../../assets/Michael Resume.pdf';
-import './style.css'
+import './style.css';
+import lantern from '../../assets/lantern-festival.jpg'
 
 function Resume() {
   return(
@@ -24,7 +24,26 @@ function Resume() {
         </div>
       </section>
       <section className='section section-2 s-white'>
-
+        <div className='about-content row'>
+          <div className='whoiam col-2'>
+            SKILLSETS |
+          </div>
+          <div className='whoiam-body col-4'>
+            <span className='whoiam'>JavaScript</span>
+            <br />
+            <span className='whoiam'>Node / Express</span>
+            <br />
+            <span className='whoiam'>React</span>
+          </div>
+          <div className='whoiam-body col-4'>
+            <span className='whoiam'>HTML / CSS</span>
+            <br />
+            <span className='whoiam'>Adobe Illustrator</span>
+            <br />
+            <span className='whoiam'>MongoDB / SQL</span>
+          </div>
+        </div>
+        <div className='lantern-wrapper'><img src={lantern} className='lantern-img start'></img></div>
       </section>
     </div>
   )
