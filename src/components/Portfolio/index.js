@@ -12,16 +12,16 @@ import weather from '../../assets/weather.png';
 function Portfolio() {
   const projects = [
     {
+      name: 'Tomodachi',
+      link: 'https://tomodachi-sadboitay.herokuapp.com/',
+      github: 'https://github.com/Johnson90cm/Tomodachi',
+      image: 'tomodachi'
+    },
+    {
       name: 'Flix Fix',
       link: 'https://pure-falls-88054.herokuapp.com/',
       github: 'https://github.com/michaelheinhold/group-project-2',
       image: 'flix-fix'
-    },
-    {
-      name: 'Note Taker',
-      link: 'https://heinholdnote-taker.herokuapp.com/',
-      github: 'https://github.com/michaelheinhold/note-taker',
-      image: 'note'
     },
     {
       name: 'Tech Blog',
